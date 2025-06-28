@@ -149,6 +149,3 @@ Chaque exemple sera autonome, avec son propre HTML, CSS, JS.
 Ce projet est en cours de construction.
 Il évoluera au fil de mes expérimentations, et j’ajouterai de nouveaux exemples au fur et à mesure.
 
----
-
-Souhaite-tu que je t’aide à générer un exemple de `code/index.js` (serveur Express), ou te créer un exemple dans `code/exemple/arbre-familial/` pour démarrer ?
