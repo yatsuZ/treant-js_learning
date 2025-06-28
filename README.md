@@ -7,82 +7,129 @@
     |_|_|  \___|\__,_|_| |_|\__|      | |___/
                                      _/ |    
                                     |__/     
+
+░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░▒▓████████▓▒░▒▓███████▓▒░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░  ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ 
+░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░  ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ 
+ ░▒▓██████▓▒░░▒▓████████▓▒░ ░▒▓█▓▒░   ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░ 
+   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░         ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
+   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░         ░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░ 
+   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░  ░▒▓███████▓▒░ ░▒▓██████▓▒░  
 </pre>
 
-Okay, je comprends \! On va intégrer l'explication du fork directement dans la section "Comment j'utilise Treant.js (Mon Approche)" pour que tout soit au même endroit.
+# 🌳 **Bienvenue sur mon sandbox Treant.js !**
 
-Voici votre `README.md` mis à jour :
+Ce dépôt est mon **espace d'apprentissage et d'expérimentation personnel** dédié à la bibliothèque **Treant.js**.
+Mon objectif principal ici est de **maîtriser cette technologie JavaScript** pour créer des visualisations arborescentes dynamiques et stylisées.
 
------
+Dans ce repository GitHub, vous trouverez mes propres exemples d'utilisation, construits autour d'un environnement **Node.js**, avec **EJS** pour les vues dynamiques.
 
-\<pre\>
-  \_\_\_\_\_\_\_                   \_          \_     
- |\_\_   **|                 | |        (*)    
-    | |* \_\_ \_\_\_  \_\_ \_ \_ \_\_ | |\_ \_\_\_\_\_\_ \_ \_\_\_ 
-    | | '**/ \_ / *\` | '* | **|******| / \_\_|
-    | | | |  \_\_/ (*| | | | | |*       | \_*   
-    |*|*|  \_\_\_|\_*,*|*| |*|\_*|      | |\_**/
-                                     \_/ |    
-                                    |**/     
-\</pre\>
+---
 
------
+## 🔍 1. Ma découverte de Treant.js
 
-## **Bienvenue sur mon sandbox Treant.js \!**
+J’ai découvert **Treant.js** complètement par hasard, et ça a été une vraie révélation !
+C’est exactement le genre d’outil que je cherchais pour mes projets de visualisation : simple, efficace, et extensible. Cette librairie est idéale pour :
 
-Ce dépôt est mon **espace d'apprentissage et d'expérimentation personnel** dédié à la bibliothèque **Treant.js**. Mon objectif principal ici est de **maîtriser cette technologie JavaScript** pour créer des visualisations arborescentes.
+* Représenter des **arbres généalogiques** complexes
+* Dessiner des **arborescences de tournois**
+* Visualiser des **organigrammes** personnalisés
 
------
+---
 
-### **1. Ma Découverte de Treant.js**
+## ⚙️ 2. Mon approche de Treant.js
 
-J'ai découvert **Treant.js** par pure coïncidence, et ce fut une véritable révélation \! C'est exactement l'outil que je cherchais pour mes projets. Cette librairie semble parfaite pour visualiser à la fois des **arbres généalogiques** complexes et des **arbres de tournoi à élimination directe**.
+J’ai décidé de **forker le dépôt GitHub officiel** de Treant.js afin d’avoir une copie personnelle du projet. Cela me permet de :
 
------
+* Travailler librement sans impacter la version originale
+* Apprendre par l’expérimentation directe
+* Réorganiser le projet selon ma logique
 
-### **2. Comment j'utilise Treant.js (Mon Approche)**
-
-Pour travailler avec Treant.js, j'ai deux options : télécharger directement le dossier `treant-js-master` depuis leur [page web officielle](https://fperucic.github.io/treant-js/) ou **faire un fork de leur dépôt GitHub**. C'est cette dernière option que j'ai choisie, car elle me permet d'avoir ma propre copie du code source pour expérimenter librement.
-
-> #### **C'est quoi un "Fork" ?**
+> ### 📌 C’est quoi un "fork" ?
 >
-> Faire un **fork**, c'est créer une **copie personnelle d'un dépôt GitHub existant sur mon propre compte**. Cela m'offre une totale liberté pour modifier le code, tester de nouvelles fonctionnalités ou même faire des erreurs sans aucun impact sur le projet original. C'est mon "bac à sable" sécurisé, idéal pour apprendre et développer à mon rythme. C'est aussi la méthode standard pour préparer des contributions futures à un projet open source.
+> Un **fork** est une **copie d’un dépôt GitHub** sur mon propre compte.
+> Cela me donne la liberté d’expérimenter, de tester, de casser des choses sans risquer de toucher au dépôt source. C’est la méthode idéale pour apprendre ou pour proposer de futures contributions.
 
-Dans ce fork, je vais développer mes propres exemples pour comprendre en profondeur le fonctionnement de Treant.js. Mon but est de créer des démonstrations pratiques d'arbres généalogiques et de tournois.
+Mon objectif ici est de créer mes **propres exemples** autour de Treant.js, pour apprendre en profondeur et explorer différentes structures.
 
------
+---
 
-### **3. Premiers Pas avec Treant.js (Installation Locale)**
+## 🛠️ 3. Refonte de l’environnement de développement
 
-Pour utiliser Treant.js en local, voici comment je procède :
+Le projet ne suit plus l’arborescence classique du dépôt Treant.js original.
+Voici **l’ancienne structure héritée du fork** (au départ) :
 
-1.  **Cloner et fork :** Après avoir forké le dépôt [Treant.js](https://github.com/fperucic/treant-js) sur mon compte GitHub, je le clone sur ma machine locale.
-2.  **Organisation des fichiers :** Je m'assure d'avoir les fichiers essentiels : `Treant.js`, `Raphael.js` (une dépendance nécessaire) et `Treant.css`. Je les place généralement dans des dossiers `js/` et `css/env` pour une meilleure organisation.
-3.  **Mon fichier `index.html` :** C'est mon point d'entrée. J'y inclurai les scripts JavaScript et la feuille de style CSS pour que Treant.js puisse dessiner mes arbres.
+```shell
+.
+├── build
+├── examples
+├── LICENSE
+├── package.json
+├── README.md
+├── Treant.css
+├── Treant.js
+└── vendor/
+    ├── jquery.easing.js
+    ├── jquery.min.js
+    ├── jquery.mousewheel.js
+    ├── perfect-scrollbar/
+    │   ├── perfect-scrollbar.css
+    │   └── perfect-scrollbar.js
+    └── raphael.js
+```
 
-Je détaillerai plus tard la structure exacte de mon fichier HTML et les chemins vers les scripts une fois que mon environnement de développement sera pleinement mis en place.
+Mais j’ai décidé de **restructurer complètement** l’environnement, pour intégrer un **serveur Node.js** avec Express, un système de vues dynamiques avec **EJS**, et une organisation modulaire pour mes exemples.
 
------
+### 📁 Nouvelle structure envisagée :
 
-### **4. Créer un Arbre Généalogique avec Treant.js**
+```shell
+.
+├── code/
+│   ├── index.js                 # Serveur Node.js avec Express
+│   ├── views/                  # Fichiers EJS si besoin
+│   ├── utilitaire/             # Fichiers essentiels pour Treant.js
+│   │   ├── Treant.js
+│   │   ├── Treant.css
+│   │   ├── raphael.js
+│   │   └── autres dépendances (jQuery, etc.)
+│   └── examples/                # Mes propres exemples
+│       ├── arbre-familial/
+│       │   ├── main.ejs
+│       │   ├── style.css
+│       │   └── script.js
+│       └── tournoi-jeux/
+│           ├── main.ejs
+│           ├── style.css
+│           └── script.js
+└── README.md
+```
 
-La clé pour créer un arbre généalogique avec Treant.js réside dans la **structure de données JavaScript (JSON)** que je fournis à la bibliothèque. Chaque personne ou couple sera un "nœud" avec des "enfants" (leurs descendants) ou des "parents" (selon le sens de l'arbre).
+---
 
-Je me concentrerai sur l'utilisation des propriétés `text` (pour le nom, le titre, etc.) et des `HTMLclass` pour appliquer des styles CSS personnalisés (par exemple, pour différencier hommes et femmes, ou les générations).
+## 🧪 4. À venir : mes propres exemples
 
------
+Je vais progressivement développer et organiser mes propres cas d’utilisation de Treant.js dans le dossier `./code/exemple/`.
+Les premiers seront :
 
-### **5. Créer un Arbre de Tournoi à Élimination Simple**
+* 🧬 **Arbre généalogique** simple avec style personnalisé
+* 🎮 **Arbre de tournoi** à élimination simple
 
-Pour un arbre de tournoi, la structure est similaire, mais la logique des "enfants" représente les équipes ou joueurs qui s'affrontent, et le "parent" est le match ou la phase suivante.
+Chaque exemple sera autonome, avec son propre HTML, CSS, JS.
 
-Je prévois d'ajouter des styles pour les nœuds de match et les nœuds d'équipe, et de gérer les vainqueurs au fur et à mesure que j'avancerai dans la logique de mon code.
+---
 
------
+## 🔗 Ressources utiles
 
-### **Ressources Utiles :**
+* 🌐 **Site officiel Treant.js** : [https://fperucic.github.io/treant-js/](https://fperucic.github.io/treant-js/)
+* 💻 **Dépôt GitHub original** : [https://github.com/fperucic/treant-js](https://github.com/fperucic/treant-js)
 
-  * **Page web officielle Treant.js :** [https://fperucic.github.io/treant-js/](https://fperucic.github.io/treant-js/)
-  * **Dépôt GitHub original Treant.js :** [https://github.com/fperucic/treant-js](https://github.com/fperucic/treant-js)
+---
 
-## N'hésitez pas à suivre mes progrès \!
+## ✍️ Remarque finale
+
+Ce projet est en cours de construction.
+Il évoluera au fil de mes expérimentations, et j’ajouterai de nouveaux exemples au fur et à mesure.
+
+---
+
+Souhaite-tu que je t’aide à générer un exemple de `code/index.js` (serveur Express), ou te créer un exemple dans `code/exemple/arbre-familial/` pour démarrer ?
