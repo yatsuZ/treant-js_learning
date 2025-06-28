@@ -24,6 +24,14 @@ Mon objectif principal ici est de **maîtriser cette technologie JavaScript** po
 
 Dans ce repository GitHub, vous trouverez mes propres exemples d'utilisation, construits autour d'un environnement **Node.js**, avec **EJS** pour les vues dynamiques.
 
+## Teste
+
+Faire :
+```shell
+make start
+```
+et tout sera afficher sur le terminal.
+
 ---
 
 ## 🔍 1. Ma découverte de Treant.js
@@ -84,24 +92,38 @@ Mais j’ai décidé de **restructurer complètement** l’environnement, pour i
 
 ```shell
 .
-├── code/
-│   ├── index.js                 # Serveur Node.js avec Express
-│   ├── views/                  # Fichiers EJS si besoin
-│   ├── utilitaire/             # Fichiers essentiels pour Treant.js
-│   │   ├── Treant.js
+├── code
+│   ├── examples2
+│   │   ├── arbre-familial
+│   │   │   ├── main.ejs
+│   │   │   ├── script.js
+│   │   │   └── style.css
+│   │   └── tournoi-jeux
+│   │       ├── main.ejs
+│   │       ├── script.js
+│   │       └── style.css
+│   ├── index.js
+│   ├── node_modules
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── util
 │   │   ├── Treant.css
-│   │   ├── raphael.js
-│   │   └── autres dépendances (jQuery, etc.)
-│   └── examples/                # Mes propres exemples
-│       ├── arbre-familial/
-│       │   ├── main.ejs
-│       │   ├── style.css
-│       │   └── script.js
-│       └── tournoi-jeux/
-│           ├── main.ejs
-│           ├── style.css
-│           └── script.js
+│   │   ├── Treant.js
+│   │   └── vendor
+│   │       ├── jquery.easing.js
+│   │       ├── jquery.min.js
+│   │       ├── jquery.mousewheel.js
+│   │       ├── perfect-scrollbar
+│   │       │   ├── perfect-scrollbar.css
+│   │       │   └── perfect-scrollbar.js
+│   │       └── raphael.js
+│   └── views
+│       ├── default.ejs
+│       ├── footer.ejs
+│       └── header.ejs
 └── README.md
+
+9 directories, 21 files
 ```
 
 ---
