@@ -2,6 +2,8 @@
 ./examples
 ./examples/*
 examples/
+./code/index.js
+code/index.js
 
 # Logs
 logs
