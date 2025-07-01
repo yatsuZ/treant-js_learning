@@ -1,7 +1,21 @@
 <%- include('header', { title: 'Accueil' }) %>
 
-<main>
+<main class="container">
   <p>Hello World</p>
+  <section class="treant-list" aria-labelledby="treant-title">
+    <h2 id="treant-title">Voici mes exemples de Treant</h2>
+    <ol>
+      <li>
+        <a href="/ExempleSimple" title="Voir un exemple simple de Treant">Exemple simple</a>
+      </li>
+      <li>
+        <a href="/ArbreFamille" title="Voir un arbre familial avec Treant">Arbre familial</a>
+      </li>
+      <li>
+        <a href="/ArbreTournoi" title="Voir un arbre de tournoi avec Treant">Arbre de tournoi</a>
+      </li>
+    </ol>
+  </section>
 </main>
 
 <%- include('footer') %>
