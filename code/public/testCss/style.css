@@ -1,0 +1,88 @@
+/* Layout global */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+/* Header & Footer */
+header, footer {
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+/* Le footer est sticky tout en bas */
+footer {
+  margin-top: auto;
+}
+
+
+/* Main zone prend le reste */
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+
+/* Conteneur blanc */
+.container {
+  height: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Zone CSS Battle */
+.cssbattle {
+  width: 400px;
+  height: 300px;
+  background: #0B2429;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 20px 20px 10px 10px rgb(229 7 7 / 17%);
+}
+
+/* Styles CSS Battle (inchangés) */
+.b {
+  position: absolute;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+.c { left: 50%; border-radius: 100%; }
+.v { background: #0B2429; }
+.m { background: #998235; }
+.j {
+  z-index: 4;
+  background: #F3AC3C;
+  width: 140px;
+  height: 140px;
+  border: 20px solid #0B2429;
+}
+.un { z-index: 5; width: 50px; height: 50px; }
+.troie { z-index: 2; width: 200px; height: 200px; }
+.t {
+  width: 136px;
+  height: 70px;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+.quatre {
+  left: 23%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+.cinque {
+  left: 77%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}

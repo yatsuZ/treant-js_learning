@@ -25,6 +25,11 @@ const viewRoutes: RouteConfig[] = [
     url: "/ArbreTournoi",
     view: "examples/tournoi-jeux/main.ejs",
   },
+  {
+    method: "GET",
+    url: "/CSSTest",
+    view: "examples/testCss/main.ejs",
+  },
 ];
 
 export const routes = [
@@ -36,14 +41,4 @@ export const routes = [
       return reply.view(route.view);
     },
   })),
-
-  // Fallback 404 route
-  {
-    method: "GET",
-    url: "/*",
-    handler: async (_: FastifyRequest, reply: FastifyReply) => {
-      reply.code(404);
-      return reply.view("404.ejs");
-    },
-  },
 ];

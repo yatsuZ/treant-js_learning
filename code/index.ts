@@ -46,6 +46,11 @@ app.register(fastifyView, {
 	includeViewExtension: true,
 });
 
+// ✅ Sert les fichiers statiques (JS, CSS)
+app.register(fastifyStatic, {
+  root: join(__dirname, '..', 'public'),
+  prefix: '/', // /util/Treant.js, /ExempleSimple/script.js
+});
 
 /**
  *
@@ -53,6 +58,14 @@ app.register(fastifyView, {
 routes.forEach((route) => {
 	app.route(route);
 });
+
+app.setNotFoundHandler((request, reply) => {
+  reply.code(404);
+  return reply.view('404.ejs');
+});
+
+
+
 
 /**
  *

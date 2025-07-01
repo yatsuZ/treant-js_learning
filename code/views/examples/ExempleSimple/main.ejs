@@ -1,7 +1,18 @@
 <%- include('../../header', { title: 'ExempleSimple' }) %>
 
+<link rel="stylesheet" href="./../../util/Treant.css">
+<link rel="stylesheet" href="style.css">
+
 <main class="container">
   <p>Exemple simple</p>
+
+  <script src="./../../util/vendor/raphael.js"></script>
+  <script src="./../../util/Treant.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    new Treant( simple_version );
+  </script>
 </main>
 
 <%- include('../../footer') %>
