@@ -30,6 +30,11 @@ const viewRoutes: RouteConfig[] = [
     url: "/CSSTest",
     view: "examples/testCss/main.ejs",
   },
+  {
+    method: "GET",
+    url: "/allConfig",
+    view: "examples/allConfig/main.ejs",
+  },
 ];
 
 export const routes = [
