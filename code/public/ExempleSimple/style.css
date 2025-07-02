@@ -4,6 +4,42 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 body { background: #fff; }
 
 /* optional Container STYLES */
-.chart { height: 159px; width: 332px; margin: 5px; margin: 5px auto; border: 3px solid #DDD; border-radius: 3px; }
-.node { color: #9CB5ED; border: 2px solid #C8C8C8; border-radius: 3px; }
-.node p { font-size: 20px; line-height: 20px; height: 20px; font-weight: bold; padding: 3px; margin: 0; }
+.conteneurTree {
+  /* Taille dynamique ou fixe (modifie selon besoin) */
+  width: 90%;
+  /* max-width: 800px; */
+  min-height: 200px;
+
+  /* Centrage horizontal + vertical */
+  display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
+
+  /* Style */
+  margin: 5px auto;
+  border: 3px solid #DDD;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 20px;
+
+  /* Optionnel */
+  background: rgba(240, 240, 240, 0.3);
+}
+.node { color: #9CB5ED; border: 2px solid #C8C8C8; border-radius: 3px;  width: auto; /* ou une valeur max comme max-width: 150px */
+}
+
+.node p {
+  font-size: 20px;
+  line-height: 20px;
+
+  /* Supprime cette ligne */
+  /* height: 20px; */
+
+  font-weight: bold;
+  padding: 3px;
+  margin: 0;
+
+  /* Ajoute ceci pour que le texte s’adapte */
+  word-wrap: break-word;
+  white-space: normal;
+}
