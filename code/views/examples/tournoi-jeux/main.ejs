@@ -1,7 +1,32 @@
 <%- include('../../header', { title: 'tournoi-jeux'}) %>
 
+<link rel="stylesheet" href="./util/Treant.css">
+<link rel="stylesheet" href="./tournoi-jeux/style.css">
+<script src="./util/vendor/raphael.js"></script>
+<script src="./util/Treant.js"></script>
+
 <main class="container">
-  <p>Tournoi Jeux</p>
+  <section class="player-setup">
+    <h2>Configuration du tournoi</h2>
+    <div class="form-group">
+      <label for="numPlayers">Nombre de joueurs :</label>
+      <input
+        type="number"
+        id="numPlayers"
+        name="numPlayers"
+        value="8"
+        aria-describedby="playerCountHelp"
+      >
+      <small id="playerCountHelp" class="form-text text-muted">
+        Choisissez un nombre de joueurs.
+      </small>
+    </div>
+    <button type="button" id="startGameButton">Démarrer le tournoi</button>
+  </section>
+  ---
+  <div class="conteneurTree" id="Tournament">
+  </div>
 </main>
 
+<script type="module" src="./tournoi-jeux/script.js"></script>
 <%- include('../../footer') %>

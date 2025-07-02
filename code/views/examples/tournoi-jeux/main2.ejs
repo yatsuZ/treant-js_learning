@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Générateur d'Arbre de Tournoi</title>
+    <link rel="stylesheet" href="tournoi-jeux/style.css">
+    <link rel="stylesheet" href="https://fperucic.github.io/treant-js/Treant.css">
+    <link rel="stylesheet" href="https://fperucic.github.io/treant-js/examples/custom-colored.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Générateur d'Arbre de Tournoi</h1>
+
+        <div class="input-section">
+            <label for="numPlayers">Nombre de Joueurs (2-64):</label>
+            <input type="number" id="numPlayers" min="2" max="64" value="8">
+            <button id="startGameButton">Démarrer le Tournoi</button>
+            <p class="info-text">Le tournoi sera ajusté pour inclure des "Bye" si le nombre de joueurs n'est pas une puissance de 2.</p>
+        </div>
+
+        <hr>
+
+        <div class="dashboard-section">
+            <h2>Tableau de Bord des Matchs</h2>
+            <div id="matchSelection" class="hidden">
+                <label for="currentMatchSelect">Sélectionner un Match :</label>
+                <select id="currentMatchSelect">
+                    </select>
+                <button id="declareWinnerButton" disabled>Déclarer Vainqueur</button>
+                <button id="resetDashboardButton">Réinitialiser Tableau</button>
+            </div>
+
+            <div id="winnerDeclaration" class="hidden">
+                <h3 id="matchTitle">Match X : J1 vs J2</h3>
+                <p>Qui est le vainqueur ?</p>
+                <button id="winnerP1Button" class="winner-btn"></button>
+                <button id="winnerP2Button" class="winner-btn"></button>
+                <button id="cancelWinnerButton" class="cancel-btn">Annuler</button>
+            </div>
+            <p id="dashboardMessage" class="message"></p>
+        </div>
+
+        <hr>
+
+        <div id="Tournament" class="conteneurTree">
+            </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"></script>
+    <script src="https://fperucic.github.io/treant-js/Treant.js"></script>
+    <script src="tournoi-jeux/script.js"></script>
+</body>
+</html>
